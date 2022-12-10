@@ -1,16 +1,8 @@
-# terraform-module
+# terraform-aws-kms
 
-![CI Terraform](https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml/badge.svg)
+![CI Terraform](https://github.com/benniemosher-dev/terraform-aws-kms/actions/workflows/ci-terraform.yml/badge.svg)
 
-🧱 A Terraform module template repo 🧱
-
-## ✅ TODO:
-
-Things to change when first creating a module:
-
-- [ ] In `README.md` change `terraform-module` to the name of this module (i.e. `terraform-cloudflare-record`)
-- [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
-- [ ] In `README.md` delete the [TODO](README.md#todo) section
+🗝️ A TF module for AWS encryption keys. 🗝️
 
 ## 📜 Usage:
 
@@ -65,11 +57,12 @@ Things to change when first creating a module:
 ## 📋 Documentation
 
 <!-- BEGIN_TF_DOCS -->
+
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.3 |
+| Name                                                                     | Version |
+| ------------------------------------------------------------------------ | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement_terraform) | ~> 1.3  |
 
 ## Providers
 
@@ -90,4 +83,5 @@ No inputs.
 ## Outputs
 
 No outputs.
+
 <!-- END_TF_DOCS -->
