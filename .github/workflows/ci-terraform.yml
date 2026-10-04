@@ -9,6 +9,6 @@ on:
 jobs:
   ci-terraform:
     name: Continuous Integration for Terraform
-    uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@db8156445cc8da73f49cdb019a12060a3e655a40" # v1.0.3
+    uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@66a62647938ae62d6666aa8347614212aee706be" # benniemosher-dev/.github#28 (test)
     secrets:
       INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
